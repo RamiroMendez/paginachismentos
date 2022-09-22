@@ -311,12 +311,21 @@ h1{
 }
 
 
-@media(min-width: 1000px){  
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  justify-items: center;
-  gap: 10px;
+@media(min-width: 1000px){ 
+  .moda2022{
+  background-color: bisque;
+  grid-template-columns: 1fr 4fr 1fr;
+  grid-template-areas:
+  "header header header"
+  "nav nav nav"
+  "moda moda moda"
+  "ellas ellas ellas"
+  "modamujer modamujer modamujer"
+  "ellos ellos ellos"
+  "modahombre modahombre modahombre"
+  "footer footer footer"; 
 }
+
+
 
 }
