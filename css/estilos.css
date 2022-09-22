@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  text-align: center;
+  background-color: whitesmoke;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bolder;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header{
+  background-color: red ;
+  font-family: 'Roboto', sans-serif;
+  display: grid;
+  justify-content:space-between;
+}
+
+
+nav ul{
+  display: grid;
+  flex-direction: row;
+  list-style-type: none;
+  display: inline-block;
+  font-weight: bolder;
+  justify-content: space-between;
+}
+
+li{
+  list-style-type: none;
+  display: inline-block;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+}
+
+p{
+  font-size: 40px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+.formulario{
+  margin-bottom: 60px;
+}
+
+h1{
+  color: black;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+h2, h3{
+  font-size: 20px;
+  color: blueviolet;
+}
+
+section{
+  font-size: 40px;
+  font-weight: normal;
+  line-height: 50px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.span{
+  font-weight: 600px;
+}
+
+
+img{
+  width: 300px;
+  height: 250px;
+  margin-top: 15px;  
+}
+
+
+.iconos{
+  height: 60px;
+  width: 60px;
+}
+
+
+footer{
+  background-color: red;
+  padding: 3em;
+  margin-bottom: 0;
+}
+
+header{
+  grid-area: header;
+}
+
+nav{
+  grid-area: nav;
+}
+
+footer{
+  grid-area: footer;
+}
+
+.chismentos{
+  grid-area: chismentos;
+}
+
+.bienvenidos{
+  grid-area: bienvenidos;
+}
+
+.registrate{
+  grid-area: registrate;
+}
+
+.formulario{
+  grid-area: formulario;
+}
+
+.movit{
+  background-color: whitesmoke;
+  margin-bottom: 1.5em;
+  display: grid;
+  gap: 20px;
+  grid-template-areas: 
+  "header"
+  "nav"
+  "chismentos"
+  "bienvenidos"
+  "resgistrate"
+  "formulario"
+  "footer";
+}
+
+.chismentos{
+  display: grid;
+}
+
+.bienvenidos{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  justify-items: center;
+  gap: 15px;
+}
+
+.registrate{
+  display: grid;
+}
+
+.formulario{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  justify-items: center;
+  gap: 15px;
+}
+
+
+
+@media(min-width: 600px){
+  .movit{
+    background-color: blanchedalmond;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+    "header header"
+    "nav nav"
+    "chismentos chismentos"
+    "bienvenidos bienvenidis"
+    "resgistrate registarte"
+    "formulario formulario"
+    "footer footer";
+    }
+
+
+
+body{
+  background-color: blanchedalmond;  
+}
+
+
+
+@media(min-width:1000px){
+  .movit{
+    background-color: bisque;
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-areas:
+    "header header header"
+    "nav nav nav"
+    "chismentos chismentos chismentos"
+    "bienvenidos bienvenidos bienvenidos"
+    "resgistrate registrate registrate"
+    "formulario formulario formulario"
+    "footer footer footer";
+    }
+
+
+
+body{ 
+  background-color: bisque
+}
+
+
+.bienvenidos{
+  color: red;
+}
+
+header{
+  font-size: 50px;
+  font-style: normal;
+  justify-content: space-between;
+}
+  
+
+}
+
+
+.moda{
+  display: grid;
+}
+
+.ellas{
+  grid-area: ellas;
+}
+
+.modamujer{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  justify-items: center;
+  gap: 10px;
+}
+
+.ellos{
+  grid-area: ellos;
+}
+
+
+.modahombre{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  justify-items: center;
+  gap: 10px;
+}
+
+
+.moda2022{
+  background-color: whitesmoke;
+  margin-bottom: 1.5em;
+  display: grid;
+  gap: 20px;
+  grid-template-areas: 
+  "header"
+  "nav"
+  "moda"
+  "ellas"
+  "modamujer"
+  "ellos"
+  "modahombre"
+  "footer";
+}
+
+h1{
+  color: coral;
+}
+
+li{
+  font-size: 40px;
+  color: coral;
+}
+
+
+@media(min-width: 600px){
+  .moda2022{
+  background-color: blanchedalmond;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+  "header header"
+  "nav nav"
+  "moda moda"
+  "ellas ellas"
+  "modamujer  modamujer"
+  "ellos ellos"
+  "modahombre modahombre";
+}
+
+
+h1{
+  color: chocolate;
+}
+
+
+
+.modahombre{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  justify-items: center;
+  gap: 10px;
+}
+
+}
+
+.modamujer{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  justify-items: center;
+  gap: 10px;
+}
+
+
+
+}
+
+
+@media(min-width: 1000px){  
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  justify-items: center;
+  gap: 10px;
+}
