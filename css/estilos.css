@@ -55,13 +55,15 @@ p{
 h1{
   color: black;
   text-align: center;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 10px;
+  margin-bottom: 80px;
 }
 
 h2, h3{
-  font-size: 20px;
+  font-size: 40px;
   color: blueviolet;
+  margin-top: 60px;
+  margin-bottom: 50px;
 }
 
 section{
@@ -72,8 +74,9 @@ section{
   margin-bottom: 60px;
 }
 
-.span{
+span{
   font-weight: 600px;
+  color: black;
 }
 
 
@@ -177,7 +180,7 @@ footer{
     "resgistrate registarte"
     "formulario formulario"
     "footer footer";
-    }
+}
 
 
 
@@ -199,7 +202,7 @@ body{
     "resgistrate registrate registrate"
     "formulario formulario formulario"
     "footer footer footer";
-    }
+}
 
 
 
@@ -277,6 +280,8 @@ li{
   color: coral;
 }
 
+}
+
 
 @media(min-width: 600px){
   .moda2022{
@@ -326,6 +331,11 @@ h1{
   "footer footer footer"; 
 }
 
-
+.chico{
+  width: 400px; 
+	height: 300px;
+	border: 10px solid red;
+	margin-top: 15px;
+}
 
 }
