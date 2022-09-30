@@ -309,6 +309,17 @@ h1{
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   justify-items: center;
+  margin-bottom: 30px;
+  gap: 10px;
+}
+
+
+.modamujer{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  justify-items: center;
+  margin-bottom: 30px;
   gap: 10px;
 }
 
@@ -323,10 +334,7 @@ h1{
   grid-template-areas:
   "header header header"
   "nav nav nav"
-  "moda moda moda"
-  "ellas ellas ellas"
   "modamujer modamujer modamujer"
-  "ellos ellos ellos"
   "modahombre modahombre modahombre"
   "footer footer footer"; 
 }
@@ -335,7 +343,40 @@ h1{
   width: 400px; 
 	height: 300px;
 	border: 10px solid red;
-	margin-top: 15px;
+	margin-top: 10px;
+}
+
+
+.chica{
+  width: 400px; 
+	height: 300px;
+	border: 10px solid red;
+	margin-top: 10px;
+}
+
+
+.modahombre{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  justify-items: center;
+  margin-bottom: 40px;
+  gap: 10px;
+}
+
+
+.modamujer{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  justify-items: center;
+  margin-bottom: 40px;
+  gap: 10px;
+}
+
+.tips{
+  margin-top: 30px;
+  color: brown;
 }
 
 }
