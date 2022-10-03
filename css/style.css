@@ -1,0 +1,296 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  text-align: center;
+  background-color: whitesmoke;
+  font-family: "Roboto", sans-serif;
+  font-weight: bolder;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  background-color: red;
+  font-family: "Roboto", sans-serif;
+  display: grid;
+  justify-content: space-between;
+}
+header nav ul {
+  display: grid;
+  flex-direction: row;
+  list-style-type: none;
+  display: inline-block;
+  font-weight: bolder;
+  justify-content: space-between;
+}
+header nav ul li {
+  list-style-type: none;
+  display: inline-block;
+}
+header nav ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+p {
+  font-size: 30px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.formulario {
+  margin-bottom: 60px;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 80px;
+}
+
+h2, h3 {
+  font-size: 40px;
+  color: blueviolet;
+  margin-top: 50px;
+  margin-bottom: 43px;
+}
+
+section {
+  font-size: 40px;
+  font-weight: normal;
+  line-height: 50px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+span {
+  color: black;
+}
+
+img {
+  width: 300px;
+  height: 250px;
+  margin-top: 15px;
+}
+
+.iconos {
+  height: 60px;
+  width: 60px;
+}
+
+footer {
+  background-color: red;
+  padding: 3em;
+  margin-bottom: 0;
+}
+
+header {
+  grid-area: header;
+}
+
+nav {
+  grid-area: nav;
+}
+
+footer {
+  grid-area: footer;
+}
+
+.chismentos {
+  grid-area: chismentos;
+}
+
+.bienvenidos {
+  grid-area: bienvenidos;
+}
+
+.registrate {
+  grid-area: registrate;
+}
+
+.formulario {
+  grid-area: formulario;
+}
+
+.movit {
+  background-color: whitesmoke;
+  margin-bottom: 1.5em;
+  display: grid;
+  gap: 20px;
+  grid-template-areas: "header" "nav" "chismentos" "bienvenidos" "resgistrate" "formulario" "footer";
+}
+
+.chismentos {
+  display: grid;
+}
+
+.bienvenidos {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  justify-items: center;
+  gap: 15px;
+}
+
+.registrate {
+  display: grid;
+}
+
+.formulario {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  justify-items: center;
+  gap: 15px;
+}
+
+@media (min-width: 600px) {
+  .movit {
+    background-color: blanchedalmond;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "header header" "nav nav" "chismentos chismentos" "bienvenidos bienvenidis" "resgistrate registarte" "formulario formulario" "footer footer";
+  }
+  body {
+    background-color: blanchedalmond;
+  }
+}
+@media (min-width: 600px) and (min-width: 1000px) {
+  .movit {
+    background-color: bisque;
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-areas: "header header header" "nav nav nav" "chismentos chismentos chismentos" "bienvenidos bienvenidos bienvenidos" "resgistrate registrate registrate" "formulario formulario formulario" "footer footer footer";
+  }
+  body {
+    background-color: bisque;
+  }
+  .bienvenidos {
+    color: red;
+  }
+  header {
+    font-size: 50px;
+    font-style: normal;
+    justify-content: space-between;
+  }
+}
+@media (min-width: 600px) {
+  .moda {
+    display: grid;
+  }
+}
+@media (min-width: 600px) {
+  .ellas {
+    grid-area: ellas;
+  }
+}
+@media (min-width: 600px) {
+  .modamujer {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    gap: 10px;
+    margin-bottom: 50px;
+  }
+}
+@media (min-width: 600px) {
+  .ellos {
+    grid-area: ellos;
+  }
+}
+@media (min-width: 600px) {
+  .modahombre {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    gap: 10px;
+    margin-bottom: 50px;
+  }
+}
+@media (min-width: 600px) {
+  .moda2022 {
+    background-color: whitesmoke;
+    margin-bottom: 1.5em;
+    display: grid;
+    gap: 20px;
+    grid-template-areas: "header" "nav" "moda" "ellas" "modamujer" "ellos" "modahombre" "footer";
+  }
+}
+@media (min-width: 600px) {
+  h1 {
+    color: coral;
+  }
+}
+@media (min-width: 600px) {
+  li {
+    font-size: 40px;
+    color: coral;
+  }
+}
+@media (min-width: 600px) {
+  .moda2022 {
+    background-color: blanchedalmond;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "header header" "nav nav" "moda moda" "ellas ellas" "modamujer  modamujer" "ellos ellos" "modahombre modahombre";
+  }
+  h1 {
+    color: chocolate;
+  }
+  .modahombre {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    margin-bottom: 30px;
+    gap: 10px;
+  }
+  .modamujer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    margin-bottom: 30px;
+    gap: 10px;
+  }
+}
+@media (min-width: 1000px) {
+  .moda2022 {
+    background-color: bisque;
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-areas: "header header header" "nav nav nav" "modamujer modamujer modamujer" "modahombre modahombre modahombre" "footer footer footer";
+  }
+  .chico {
+    width: 400px;
+    height: 300px;
+    border: 10px solid red;
+    margin-top: 10px;
+  }
+  .chica {
+    width: 400px;
+    height: 300px;
+    border: 10px solid red;
+    margin-top: 10px;
+  }
+  .modahombre {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    margin-bottom: 40px;
+    gap: 10px;
+  }
+  .modamujer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    margin-bottom: 40px;
+    gap: 10px;
+  }
+}/*# sourceMappingURL=style.css.map */

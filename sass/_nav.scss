@@ -1,0 +1,33 @@
+header{
+    background-color: red ;
+    font-family: 'Roboto', sans-serif;
+    display: grid;
+    justify-content:space-between;
+
+    nav{
+
+        ul{
+            display: grid;
+            flex-direction: row;
+            list-style-type: none;
+            display: inline-block;
+            font-weight: bolder;
+            justify-content: space-between;
+
+                li{
+                    list-style-type: none;
+                    display: inline-block;
+                    text-decoration: none;
+
+                    a{
+                        color: black;
+                        text-decoration: none;
+                        }
+                
+                    }
+            }
+
+        }
+  
+}
+

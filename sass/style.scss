@@ -1,63 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-
-*{
-  padding: 0;
-  margin: 0;
-}
-
-body{
-  text-align: center;
-  background-color: whitesmoke;
-  font-family: 'Roboto', sans-serif;
-  font-weight: bolder;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
-
-header{
-  background-color: red ;
-  font-family: 'Roboto', sans-serif;
-  display: grid;
-  justify-content:space-between;
-}
+@import "variableglobal";
+@import "fuentes";
+@import "generales";
+@import "nav";
+@import "titulos";
 
 
-nav ul{
-  display: grid;
-  flex-direction: row;
-  list-style-type: none;
-  display: inline-block;
-  font-weight: bolder;
-  justify-content: space-between;
-}
 
-li{
-  list-style-type: none;
-  display: inline-block;
-}
 
-a{
-  color: black;
-  text-decoration: none;
-}
 
-p{
-  font-size: 30px;
-  margin-bottom: 30px;
-  margin-top: 30px;
-}
+
 
 .formulario{
   margin-bottom: 60px;
 }
 
-h1{
-  color: black;
-  text-align: center;
-  margin-top: 10px;
-  margin-bottom: 80px;
-}
 
 h2, h3{
   font-size: 40px;
