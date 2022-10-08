@@ -3,10 +3,7 @@
 @import "generales";
 @import "nav";
 @import "titulos";
-
-
-
-
+@import "media";
 
 
 
@@ -138,11 +135,7 @@ footer{
 }
 
 
-
-body{
-  background-color: blanchedalmond;  
 }
-
 
 
 @media(min-width:1000px){
@@ -161,9 +154,7 @@ body{
 
 
 
-body{ 
-  background-color: bisque
-}
+
 
 
 .bienvenidos{
@@ -177,7 +168,6 @@ header{
 }
   
 
-}
 
 
 .moda{
@@ -234,6 +224,7 @@ h1{
 
 li{
   font-size: 40px;
+  text-decoration: none;
   color: coral;
 }
 
@@ -334,3 +325,4 @@ h1{
 
 
 }
+
